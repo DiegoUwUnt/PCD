@@ -1,4 +1,4 @@
-# Merge Sort con la estructura de Bubble Sort y Quick Sort
+# Merge Sort 
 # E S C O M
 # I P N
 # @autor: Diego Villagran
@@ -9,11 +9,13 @@ import random
 def generar_numeros_aleatorios(n):
   return [random.randint(0, 10000) for _ in range(n)]
 
+#Lsita desornenada 
 def imprimir_lista(lista):
   for elemento in lista:
     print(elemento, end=" ")
   print()
 
+#Ordenamiento
 def merge_sort(arr):
   if len(arr) > 1:
     mitad = len(arr) // 2
@@ -56,3 +58,5 @@ merge_sort(array)
 
 print("\nArreglo ordenado:")
 imprimir_lista(array)
+
+
