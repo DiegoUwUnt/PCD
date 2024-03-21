@@ -4,8 +4,6 @@
 # @autor: Diego Villagran
 # @autor: Urrutia Quiroz
 
-# Bubble Sort
-# E S C O M
 import random
 
 def BubbleSort(A):
